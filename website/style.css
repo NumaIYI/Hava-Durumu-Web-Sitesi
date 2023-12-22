@@ -9,9 +9,12 @@ body {
     padding: 0;
 }
 
+/*anasayfa body */
+
 .bod {
     font-family: 'montserrats', sans-serif;
-    background-image: url('back.jpg');
+    background-image: url('bbbb.jpg');
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -23,6 +26,8 @@ body {
     background: rgba(0, 0, 0, .5);
 }
 
+
+/* renkdeğiştirme */
 .rengarenk {
 margin: 0;
       overflow: hidden;
@@ -43,13 +48,15 @@ margin: 0;
         background-color: rgba(255, 255, 0 .5); /* Sarı */
       }
       100% {
-        background-color: rgba(255, 0, 255 .5); /* Pes Pembe */
+        background-color: rgba(255, 0, 255 .5); /* Pembe */
       }
     }
 
+/*tüm sayfalar header kısmı*/
 header {
     background-color: #07bcbc3c;
     color: #ffffffba;
+    background-color: rgba(95, 158, 160, 0.814);
     padding: 10px;
     text-align: center;
 }
@@ -71,9 +78,10 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #07bcbc;
+    color: #046464;
     font-weight: bold;
 }
+/* anasayfa aratma sonucu */
 .sonuc{
     color: #fff;
     display: flex;
@@ -161,7 +169,7 @@ nav a {
     align-content: space-between;
     width: 300px;
     height: auto;
-    background-color: #cf03cf2b;
+    background-color: #e9e5e9b2;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -226,12 +234,6 @@ h2 {
       padding: 16px 48px;
     }
 }
-footer{
-    background: #333;
-    font-size: large;
-    color: darkgray;
-    text-align: center;
-}
 
 .tooltip {
     position: relative;
@@ -263,15 +265,39 @@ footer{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.hakcontain{
+    background-color:#04646489 ;
+}
+
 .hakp{
     color: #555;
 }
 
+.ilebas{
+    text-align: center;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+.ilecontain{
+    background-color:#04646489 ;
+}
+
 .ilesection {
-    background-color: #ffffff3e;
+    background-color: #f5e4f46e;
     margin: 20px;
     padding: 20px;
+    color: #000000;
     text-shadow: 2px 2px rgba(0,0,0,0.2);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
+
+footer{
+    background: #333;
+    font-size: large;
+    color: darkgray;
+    text-align: center;
+}
+
