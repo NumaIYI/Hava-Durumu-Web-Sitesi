@@ -1,0 +1,120 @@
+
+<<<<<<<<<<<<<<<<<<<<HTML>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSSdos/style.css">
+    <title>Hava Durumu</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hava Durumu</h1>
+        <div id="weather-info">
+            <p id="location"></p>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <script src="JSdos/script.js"></script>
+</body>
+</html>
+<<<<<<<<<<<<<<<<<<<<HTML>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<<<<<<<<<<<<<<<<<<<<JS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+/*const firstgetResult = (cityName) => {
+    let query = `${url}weather?q=${cityName}&appid=${key}&units=metric&lang=tr`
+    fetch(query)
+    .then(weather => {
+        return weather.json()
+    })
+    .then(firstdisplayResult)
+}
+
+const firstdisplayResult = (result) =>{
+    let city = document.querySelector('.location')
+    city.innerHTML = `${result.name}, ${result.sys.country}`
+
+    let temp = document.querySelector('.temperature')
+    temp.innerHTML = `${Math.round(result.main.temp)}°C`
+
+    let desc = document.querySelector('.description')
+    desc.innerHTML = result.weather[0].description
+
+    let minmax = document.querySelector('.tempminmax')
+    minmax.innerHTML = `${Math.round(result.main.temp_min)}°C /
+    ${Math.round(result.main.temp_max)}°C`
+}*/
+
+/*document.addEventListener('DOMContentLoaded', function () {
+    const cityData = {
+        istanbul: {
+            location: 'İstanbul',
+            temperature: '25°C',
+            description: 'Parçalı bulutlu'
+        },
+        izmir: {
+            location: 'İzmir',
+            temperature: '28°C',
+            description: 'Açık'
+        },
+        ankara: {
+            location: 'Ankara',
+            temperature: '28°C',
+            description: 'Açık'
+        },
+        bursa: {
+            location: 'Bursa',
+            temperature: '28°C',
+            description: 'Açık'
+        },
+        adana: {
+            location: 'Adana',
+            temperature: '28°C',
+            description: 'Açık'
+        },
+        diyarbakir: {
+            location: 'Diyarbakır',
+            temperature: '28°C',
+            description: 'Açık'
+        },
+        batman: {
+            location: 'Batman',
+            temperature: '31°C',
+            description: 'Açık'
+        },
+        trabzon: {
+            location: 'Trabzon',
+            temperature: '28°C',
+            description: 'Açık'
+        }
+    };
+
+    showWeather('istanbul');
+    showWeather('izmir');
+    showWeather('ankara');
+    showWeather('bursa');
+    showWeather('adana');
+    showWeather('diyarbakir');
+    showWeather('trabzon');
+    showWeather('batman');
+    
+    document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+            const city = this.getAttribute('href').substring(1);
+            showWeather(city);
+        });
+    });
+
+    function showWeather(city) {
+        const currentCity = cityData[city];
+        document.querySelector(`#${city} .location`).textContent = `Konum: ${currentCity.location}`;
+        document.querySelector(`#${city} .temperature`).textContent = `Sıcaklık: ${currentCity.temperature}`;
+        document.querySelector(`#${city} .description`).textContent = `Durum: ${currentCity.description}`;
+    }
+
+});*/
+
+<<<<<<<<<<<<<<<<<<<<JS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
