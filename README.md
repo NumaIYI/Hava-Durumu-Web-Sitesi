@@ -15,4 +15,3 @@
 
 ![web-hava-durum-3](https://github.com/NumaIYI/Hava-Durumu-Web-Sitesi/assets/128406291/2da5e76e-b944-41d1-bf87-1a9452116b3c)
 
-----
